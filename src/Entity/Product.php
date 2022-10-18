@@ -5,9 +5,11 @@ namespace App\Entity;
 use App\Repository\ProductRepository;
 use Doctrine\DBAL\Types\Types;
 use Doctrine\ORM\Mapping as ORM;
+use Sonata\MediaBundle\Entity\BaseMedia;
 
 #[ORM\Entity(repositoryClass: ProductRepository::class)]
-class Product
+#[ORM\Table(name="media__media")]
+class Product extends BaseMedia
 {
     #[ORM\Id]
     #[ORM\GeneratedValue]

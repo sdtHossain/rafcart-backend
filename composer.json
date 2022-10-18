@@ -16,6 +16,7 @@
         "sensio/framework-extra-bundle": "^6.1",
         "sonata-project/admin-bundle": "^4.19",
         "sonata-project/doctrine-orm-admin-bundle": "^4.8",
+        "sonata-project/media-bundle": "^4.5",
         "symfony/asset": "6.1.*",
         "symfony/console": "6.1.*",
         "symfony/doctrine-messenger": "6.1.*",
